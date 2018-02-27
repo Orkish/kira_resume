@@ -1,0 +1,102 @@
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
+
+* {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+}
+
+.main-container {
+  border: 3px solid;
+  margin: 15px;
+}
+
+.name-section {
+  text-align: center;
+  border-bottom: 3px solid;
+  padding: 45px;
+}
+
+.current-position {
+  margin-top: 25px;
+}
+
+.my-name {
+  font-size: 60px;
+  letter-spacing: 10px;
+}
+
+.skinny-name {
+  font-weight: 200;
+}
+
+.name-underline {
+  border-bottom: 1px solid;
+  width: 25%;
+  margin: 20px auto;
+}
+
+.content-container {
+  padding: 15px;
+}
+
+.left-section {
+  border-right: 1px solid;
+  float: left;
+  width: 25%;
+  padding: 2% 3%;
+  box-sizing: border-box;
+}
+
+.left-section--contact-section {
+  border-bottom: 1px solid;
+}
+
+.left-section--education-section {
+  border-bottom: 1px solid;
+}
+
+.skills-item {
+  list-style: none;
+  margin: 15px 0;
+}
+
+.left-items {
+  text-align: right;
+}
+
+.contact-icons {
+  margin-left: 15px;
+}
+
+.right-section {
+  float: right;
+  width: 75%;
+  padding: 2% 5%;
+  box-sizing: border-box;
+}
+
+.right-section--profile-section {
+  border-bottom: 1px solid;
+}
+
+.profile-desc {
+  line-height: 2;
+  margin-bottom: 40px;
+}
+
+.work-title {
+  margin-top: 40px;
+}
+
+.work-desc {
+  margin: 10px 0;
+}
